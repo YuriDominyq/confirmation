@@ -14,7 +14,7 @@ export default function Confirmation() {
         setMessage('Your email has been confirmed! You can now log in')
       }
     }
-    confirmUser
+    confirmUser()
   }, [])
 
   return (
