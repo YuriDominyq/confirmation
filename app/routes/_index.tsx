@@ -45,8 +45,8 @@ export default function Confirmation() {
     <div className="flex justify-center items-center min-h-screen bg-gray-50">
       <div className="flex flex-col items-center m-4 p-6 bg-white rounded-lg shadow-lg">
         <img
-          src='/david.jpg'
-          alt="David"
+          src='/turnuplogo.jpg'
+          alt="TurnUp Logo"
           className="w-[200px] h-[200px] rounded-full mb-4"
         />
 
@@ -56,8 +56,8 @@ export default function Confirmation() {
           )}
 
           <p className={`text-xl font-medium ${message.includes('✅') ? 'text-green-600' :
-              message.includes('❌') ? 'text-red-600' :
-                'text-blue-600'
+            message.includes('❌') ? 'text-red-600' :
+              'text-blue-600'
             }`}>
             {message}
           </p>
